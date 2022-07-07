@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InfosComponent } from '../infos/infos.component';
 
 @Component({
   selector: 'app-lista',
@@ -7,8 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaComponent implements OnInit {
   
-  
-
   constructor() { }
 
   ngOnInit(): void {

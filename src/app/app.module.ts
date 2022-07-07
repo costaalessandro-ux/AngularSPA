@@ -9,6 +9,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { ListaComponent } from './lista/lista.component';
+import { InfosComponent } from './infos/infos.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { ListaComponent } from './lista/lista.component';
     AppComponent,
     HomeComponent,
     ListaComponent,
+    InfosComponent
   ],
   imports: [
     BrowserModule,
