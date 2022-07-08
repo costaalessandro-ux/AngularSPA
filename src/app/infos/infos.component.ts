@@ -9,6 +9,8 @@ import { Component, Input, OnInit } from "@angular/core";
 export class InfosComponent implements OnInit{
 
   @Input()
+  
+  imageUrl: string = '/img/pat.jpg'
   nome: string = 'Patríca Boyle'
   email: string = 'patriciaboyle@gmail.com'
   tel: string = '993879751'
