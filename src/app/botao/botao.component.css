@@ -2,12 +2,16 @@
     color: white;
     background-color: blue;
     border: none;
-    width: 100px;
+    border-radius: 5px;
+    width: 150px;
+    margin-top: 40px;
 }
 
 .botao1{
     color: white;
     background-color: red;
     border: none;
-    width: 100px;
+    border-radius: 5px;
+    width: 150px;
+    margin-top: 40px;
 }
