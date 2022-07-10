@@ -10,6 +10,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { ListaComponent } from './lista/lista.component';
 import { InfosComponent } from './infos/infos.component';
+import { BotaoComponent } from './botao/botao.component';
+import { BotaoComponent1 } from './botao/botao1.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { InfosComponent } from './infos/infos.component';
     AppComponent,
     HomeComponent,
     ListaComponent,
-    InfosComponent
+    InfosComponent,
+    BotaoComponent,
+    BotaoComponent1
   ],
   imports: [
     BrowserModule,
