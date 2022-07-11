@@ -1,9 +1,11 @@
-footer{
-    background-color:  gainsboro;
-    text-align: center;
-    height: 45px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.rodape{
-    text-align: end;
+footer{
+    background-color:  #F5F5F5;
+    text-align: center;
+    height: 62px;
 }
+
