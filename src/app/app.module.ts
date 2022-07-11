@@ -12,6 +12,7 @@ import { ListaComponent } from './lista/lista.component';
 import { InfosComponent } from './infos/infos.component';
 import { BotaoComponent } from './botao/botao.component';
 import { BotaoComponent1 } from './botao/botao1.component';
+import { RodapeComponent } from './rodape/rodape.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { BotaoComponent1 } from './botao/botao1.component';
     ListaComponent,
     InfosComponent,
     BotaoComponent,
-    BotaoComponent1
+    BotaoComponent1,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
