@@ -1,9 +1,9 @@
-<span class="img">{{imageUrl}}</span>
-<p>
-<span class="infos">
-{{nome}}<br/>
-{{email}}<br/>
-{{tel}}<br/>
-{{cargo}}<br/>
-</span>
-</p>
+
+    <span class="infos" *ngFor="let usuario of usuarios">
+        {{usuario.imageUrl}}<br>
+        {{usuario.nome}}<br>
+        {{usuario.email}}<br>
+        {{usuario.tel}}<br>
+        {{usuario.cargo}}<br>
+        </span>
+

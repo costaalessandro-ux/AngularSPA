@@ -10,11 +10,20 @@ export class InfosComponent implements OnInit{
 
   @Input()
   
-  imageUrl: string = "./img/pat.jpg"
-  nome: string = 'Patríca Boyle'
-  email: string = 'patriciaboyle@gmail.com'
-  tel: string = '993879751'
-  cargo: string = 'CEO'
+  imageUrl: string = '';
+
+  usuarios = [ {
+    imageUrl: '/img/pat.jpg',
+    nome: 'Patríca Boyle',
+    email: 'patriciaboyle@gmail.com',
+    tel: '993879751',
+    cargo: 'CEO',
+  },
+  
+  
+  ]
+
+  
 
     constructor() {}
 
